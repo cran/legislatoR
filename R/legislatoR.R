@@ -1,0 +1,29 @@
+#' legislatoR
+#'
+#' Facilitates access to the Comparative Legislators Database (CLD). The CLD includes political, sociodemographic, career, online presence, public attention, and visual information for over 45,000 contemporary and historical politicians from ten countries.
+#'
+#' @section legislatoR functions:
+#'
+#' \code{\link{cld_content}}: returns a named list of legislatures and sessions available in the CLD.\cr
+#'
+#' \code{\link{get_core}}: fetches sociodemographic data of legislators.\cr
+#'
+#' \code{\link{get_political}}: fetches political data of legislators.\cr
+#'
+#' \code{\link{get_history}}: fetches full revision histories of legislators' Wikipedia biographies.\cr
+#'
+#' \code{\link{get_traffic}}: fetches daily user traffic on legislators' Wikipedia biographies.\cr
+#'
+#' \code{\link{get_social}}: fetches social media handles and website URLs of legislators.\cr
+#'
+#' \code{\link{get_portrait}}: fetches portrait urls of legislators.\cr
+#'
+#' \code{\link{get_office}}: fetches political and other offices of legislators.\cr
+#'
+#' \code{\link{get_profession}} fetches occupational data of legislators.\cr
+#'
+#' \code{\link{get_ids}}: fetches a range of IDs of legislators.\cr
+#'
+#' @docType package
+#' @name legislatoR
+NULL
