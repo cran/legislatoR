@@ -1,4 +1,15 @@
 library(testthat)
 library(legislatoR)
 
-test_check("legislatoR")
+test_check("legislatoR", filter = "cld_content")
+test_check("legislatoR", filter = "errors")
+test_check("legislatoR", filter = "get_core")
+test_check("legislatoR", filter = "get_history")
+test_check("legislatoR", filter = "get_ids")
+test_check("legislatoR", filter = "get_office")
+test_check("legislatoR", filter = "get_political")
+test_check("legislatoR", filter = "get_portrait")
+test_check("legislatoR", filter = "get_profession")
+test_check("legislatoR", filter = "get_social")
+test_check("legislatoR", filter = "get_traffic")
+

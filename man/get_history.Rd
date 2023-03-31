@@ -3,7 +3,8 @@
 \name{get_history}
 \alias{get_history}
 \title{Fetch Wikipedia 'History' table}
-\format{Data frame with columns:
+\format{
+Data frame with columns:
 \itemize{
 \item{pageid: Wikipedia page ID identifying a legislator's Wikipedia biography (of class \sQuote{integer}).}
 \item{revid: Wikipedia edit ID (of class \sQuote{integer}).}
@@ -13,9 +14,10 @@
 \item{timestamp: Date and time of the revision (of class \sQuote{POSIXct}).}
 \item{size: Revision size in bytes (of class \sQuote{integer}).}
 \item{comment: Revision comment (of class \sQuote{character}).}
-}}
+}
+}
 \source{
-Wikipedia API, \url{https://wikipedia.org/w/api.php}
+Wikipedia API, \url{https://en.wikipedia.org/w/api.php}
 }
 \usage{
 get_history(legislature)

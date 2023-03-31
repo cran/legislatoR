@@ -3,7 +3,8 @@
 \name{get_core}
 \alias{get_core}
 \title{Fetch 'Core' table}
-\format{Data frame with columns (varies by legislature):
+\format{
+Data frame with columns (varies by legislature):
 \itemize{
 \item{country: ISO 3166-1 alpha-3 three-letter country code (of class \sQuote{character}).}
 \item{pageid: Wikipedia page ID identifying a legislator's Wikipedia biography (of class \sQuote{integer} or \sQuote{character}).}
@@ -17,14 +18,15 @@
 \item{death: A legislator's date of death (of class \sQuote{POSIXct}).}
 \item{birthplace: Comma separated latitude and longitude of a legislator's place of birth (of class \sQuote{character}).}
 \item{deathplace: Comma separated latitude and longitude of a legislator's place of death (of class \sQuote{character}).}
-}}
+}
+}
 \source{
-Wikipedia, \url{https://wikipedia.org/} \cr
-Wikipedia API, \url{https://wikipedia.org/w/api.php} \cr
-Wikidata API, \url{https://www.wikidata.org/} \cr
-Wikimedia Commons, \url{https://commons.wikimedia.org/} \cr
+Wikipedia, \url{https://www.wikipedia.org/} \cr
+Wikipedia API, \url{https://en.wikipedia.org/w/api.php} \cr
+Wikidata API, \url{https://www.wikidata.org/wiki/Wikidata:Main_Page} \cr
+Wikimedia Commons, \url{https://commons.wikimedia.org/wiki/Main_Page} \cr
 Face++ Cognitive Services API, \url{https://www.faceplusplus.com/} \cr
-Germany Bundestag Open Data, \url{https://www.bundestag.de/service/opendata}
+Germany Bundestag Open Data, \url{https://www.bundestag.de/services/opendata}
 }
 \usage{
 get_core(legislature)
